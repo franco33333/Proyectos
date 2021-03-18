@@ -8,10 +8,6 @@ namespace Prueba_de_Clases_y_Herencia
 {
     class Golosina:Producto
     {
-        private string nombre;
-        private int id, stock;
-        private float precio;
-
         public String Nombre
         {
             set
@@ -60,10 +56,10 @@ namespace Prueba_de_Clases_y_Herencia
             }
         }
 
-        static List<Golosina> golosinas;
+        //static List<Golosina> golosinas;
         public Golosina()
         {
-            golosinas = new List<Golosina>();
+
         }
 
         public override void AgregarProducto(int ident, string nom, int cant, float pre)
@@ -73,16 +69,21 @@ namespace Prueba_de_Clases_y_Herencia
             gol.nombre = nom;
             gol.stock = cant;
             gol.precio = pre;
-            golosinas.Add((Golosina)gol);
+            productos.Add((Golosina)gol);
         }
 
-        public List<Golosina> GetGolosinas(){return golosinas;}
+        public List<Producto> GetGolosinas(){return productos;}
 
         public int getId() {return id;}
         public void modificarGol(int idAux, int sto)
         {
             //Busca el producto y le suma el stock.
-            golosinas.Find(x => x.id == idAux).stock+=sto;
+            productos.Find(x => x.id == idAux).stock+=sto;
+        }
+
+        public void eliminarGol(int idAux)
+        {
+            productos.Remove(productos.Find(x => x.id == idAux));
         }
     }
 }
