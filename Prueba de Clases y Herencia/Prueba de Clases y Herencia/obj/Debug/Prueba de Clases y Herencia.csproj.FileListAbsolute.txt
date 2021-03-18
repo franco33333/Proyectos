@@ -1,0 +1,7 @@
+C:\Users\franc\source\repos\Prueba de Clases y Herencia\Prueba de Clases y Herencia\bin\Debug\Prueba de Clases y Herencia.exe.config
+C:\Users\franc\source\repos\Prueba de Clases y Herencia\Prueba de Clases y Herencia\bin\Debug\Prueba de Clases y Herencia.exe
+C:\Users\franc\source\repos\Prueba de Clases y Herencia\Prueba de Clases y Herencia\bin\Debug\Prueba de Clases y Herencia.pdb
+C:\Users\franc\source\repos\Prueba de Clases y Herencia\Prueba de Clases y Herencia\obj\Debug\Prueba de Clases y Herencia.csprojAssemblyReference.cache
+C:\Users\franc\source\repos\Prueba de Clases y Herencia\Prueba de Clases y Herencia\obj\Debug\Prueba de Clases y Herencia.csproj.CoreCompileInputs.cache
+C:\Users\franc\source\repos\Prueba de Clases y Herencia\Prueba de Clases y Herencia\obj\Debug\Prueba de Clases y Herencia.exe
+C:\Users\franc\source\repos\Prueba de Clases y Herencia\Prueba de Clases y Herencia\obj\Debug\Prueba de Clases y Herencia.pdb
